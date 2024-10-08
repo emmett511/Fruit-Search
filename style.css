@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #e6bf12 7%, #ce6e0e 100%);
+  padding: 45vh;
+  display: flex;
+  justify-content: center;
+}
+
+.search-container input,
+.search-container .suggestions {
+  width: 250px;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: block;
+  margin: 0 auto;
+}
+
+ul li {
+  list-style-type: none;
+  padding-left: 10px;
+}
+ul li:hover {
+  background: rgba(218, 117, 9, 0.66);
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  unicode-bidi: isolate;
+}
